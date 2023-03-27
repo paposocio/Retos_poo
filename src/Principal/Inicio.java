@@ -1,4 +1,5 @@
 package Principal;
+import Salud.Empleado;
 import Salud.Persona;
 
 public class Inicio 
@@ -25,5 +26,8 @@ public class Inicio
         {
             System.out.println("usted tiene sobrepeso");
         }
+
+        Empleado jhoseph = new Empleado("CC",15892822,"jose","gomez",100,175,36,"Masculino","Abogado",100.33,9,"Administrativo");
+        jhoseph.calcularHonorarios();
     }
 }
